@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">每日新闻</string>
+    <!--logo界面跳转-->
+    <string name="logo_jump">%1$d秒之后跳转</string>
+</resources>

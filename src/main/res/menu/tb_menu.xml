@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tx_size_small"
+        android:title="小字体"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tx_size_narmal"
+        android:title="正常字体"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tx_size_big"
+        android:title="大字体"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tx_size_super_big"
+        android:title="超大字体"
+        app:showAsAction="never"/>
+</menu>

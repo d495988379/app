@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_society_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg"
+            android:weightSum="3">
+            <TextView
+                android:id="@+id/tv_society_newtitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textSize="18sp"
+                android:text="新闻标题"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:maxLines="1"/>
+            <LinearLayout
+                android:id="@+id/llay_point_parent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
